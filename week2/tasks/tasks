@@ -1,0 +1,28 @@
+Task 1: Loan Approval System
+Scenario:
+You are building a simple backend logic for a bank loan system.
+Requirements:
+Write a function:
+def check_loan_eligibility(age, income, credit_score, has_criminal_record):
+If age < 18 → Reject
+If income < 50,000 → Reject
+If credit_score < 600 → Reject
+If has_criminal_record = True → Reject
+If all conditions pass → Approve Loan
+
+
+
+
+Task 2: User Authentication System
+Requirements
+Write a function:
+def login_system(username, password, is_verified, attempts):
+Rules:
+If attempts >= 3 → return "Account Locked"
+If username or password is empty → return "Invalid Input"
+If username ≠ "admin" OR password ≠ "1234" →
+ → return "Incorrect Credentials"
+If user is not verified (is_verified = False) →
+ → return "Please verify your account"
+If everything is correct →
+ → return "Login Successful"
